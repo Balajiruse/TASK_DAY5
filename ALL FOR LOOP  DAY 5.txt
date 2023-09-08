@@ -1,0 +1,41 @@
+// for loop
+const arr =["balaji","MCA"];
+for( let i=0;i<=arr.length;i++)
+{
+  console.log(arr[i]);
+}
+
+
+
+
+// for in loop 
+
+const country ={
+  INDIA : "IND",
+  CHINA : "CHN",
+}
+for (key in country)
+{
+  console.log(`keys :${key} country : ${country[key]}`);
+}
+
+---------------------------------------------------------------------------------------------
+
+// for of
+
+const string = " balaji";
+for( str of string)
+{
+  console.log(str);
+}
+----------------------------------------------------------------------------------------------------
+
+// for each
+
+
+const fruits = ["apple", "orange", "cherry"];
+fruits.forEach( function (arr2) {
+console.log(arr2)
+});
+
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,57 @@
+JSON FORMAT RESUME 
+
+let resume =
+{
+    "basic" : "balaji",
+    "email" : " balaji.ruse@gmail.com",
+    "phone " : "9003642216",
+
+
+    "location" :[ {
+        "address" : "132 kannikapuram kk nager chennai",
+        "postalcode" : "6000078",
+        "state" : " tamil nadu",
+        "country" : "india",
+        },
+    
+],
+     " education" :[
+        
+        {
+            "institution " : " A M JANI  ART AND SCIENCE COLLEGE",
+            "department" : " BSC(PHYSICE WITH COMPUTER APPLICATION)",
+              "start year" : " 2017",
+              " end year" : " 2020",
+              "GPA " : " 76%",
+
+              "HSC" : " DKG HR SCL",
+              "department" : " COMPUTER SCIENCE",
+              "passout" : "2017",
+              "GPA" : "70 %",
+
+              "SSLC" : "J V HIHG SCL",
+              "Departmet" : " Genral",
+              "passout" : " 2015",
+            },
+        ],
+        
+        "skills" :[ {
+         "skill" :  "java / j2ee,HTML, MYSQL",
+         "project" : "ecommerce",
+        },
+    ],
+        "languages" :[ {
+            "language" : " tamil, English ",
+
+        }
+    ],
+    "intersts" : [
+        {
+            "Naame" : " read books, cooking",
+        },
+    ],
+
+    }
+     
+console.log(resume);
+
